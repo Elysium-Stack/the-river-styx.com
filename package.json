@@ -1,0 +1,12 @@
+{
+	"name": "the-river-styx",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"watch": "tailwindcss -i ./source.css -o ./assets/elysium.css --watch"
+	},
+	"devDependencies": {
+		"tailwindcss": "^3.2.7"
+	}
+}

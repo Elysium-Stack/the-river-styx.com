@@ -4,7 +4,8 @@
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
-		"watch": "tailwindcss -i ./source.css -o ./assets/elysium.css --watch"
+		"build": "tailwindcss -i ./source.css -o ./assets/elysium.css",
+		"watch": "yarn build --watch"
 	},
 	"devDependencies": {
 		"tailwindcss": "^3.2.7"

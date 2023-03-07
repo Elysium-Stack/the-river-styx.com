@@ -3,10 +3,18 @@
 @tailwind utilities;
 
 @layer base {
+	html,
 	body {
-		font-family: 'Roboto', sans-serif;
+		height: 100%;
+	}
+
+	html {
+	}
+
+	body {
 		background: url('/assets/background.jpg') center center no-repeat;
 		background-size: cover;
-		@apply bg-violet-500 text-white;
+		font-family: 'Roboto', sans-serif;
+		height: 100%;
 	}
 }

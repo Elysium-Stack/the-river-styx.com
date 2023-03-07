@@ -12,7 +12,7 @@
 	}
 
 	body {
-		background: url('/assets/background.jpg') center center no-repeat;
+		background: url('/assets/background.jpg') fixed center center no-repeat;
 		background-size: cover;
 		font-family: 'Roboto', sans-serif;
 		height: 100%;

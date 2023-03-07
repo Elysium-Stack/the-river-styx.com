@@ -428,7 +428,7 @@ html {
 }
 
 body {
-  background: url('/assets/background.jpg') center center no-repeat;
+  background: url('/assets/background.jpg') fixed center center no-repeat;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
   height: 100%;
@@ -780,6 +780,10 @@ body {
   height: 1rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -790,10 +794,6 @@ body {
 
 .w-full {
   width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .flex-shrink {

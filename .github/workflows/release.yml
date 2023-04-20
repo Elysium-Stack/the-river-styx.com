@@ -45,7 +45,7 @@ jobs:
           uses: actions/upload-pages-artifact@v1
           with:
             name: tailwind-output
-            path: './assets/elysium.css'
+            path: './assets'
   deploy:
     # Add a dependency to the build job
     needs: build

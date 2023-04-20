@@ -60,7 +60,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: tailwind-output
-          path: '.'
+          path: 'assets'
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
